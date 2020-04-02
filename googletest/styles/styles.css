@@ -1,0 +1,177 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#perf {
+    max-width: 80px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    position: relative;
+    bottom: 6px;
+    border: 1px;
+    border-radius: 50%;
+}
+
+#hamb {
+    max-width: 67px;
+    max-height: 17px;
+    width: auto;
+    height: auto;
+    position: relative;
+    bottom: 1px;
+
+}
+.lista {
+    display: flex;
+    color: black;
+    justify-content: flex-end;
+    margin: 22px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+.lista li {
+    margin-left: 13px;
+}
+
+#googlelogo {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 45px;
+    border: 1px solid #DCDCDD;
+    border-radius: 30px;
+    font-size: 18px;
+    padding-left: 40px;
+    z-index: 0;
+}
+
+input:hover {
+    box-shadow: 1px 1px 6px 1px #DCDCDD;
+}
+
+#pesq {
+    position: absolute;
+    top: 49.0%;
+    left: 44.3%;
+    transform: translate(-50%, -50%);
+    border: 1px none black;
+    border-radius: 3px;
+    background-color: #F3F3F3;
+    color: #6A6A6A;
+    font-size: 15px;
+    padding: 10px 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#key {
+    position: absolute;
+    top: 40%;
+    left: 67.2%;
+    transform: translate(-50%, -50%);
+    max-width: 76px;
+    max-height: 26px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+
+#sorte {
+    position: absolute;
+    top: 49.0%;
+    left: 55.3%;
+    transform: translate(-50%, -50%);
+    border: 1px none black;
+    border-radius: 3px;
+    background-color: #F3F3F3;
+    color: #6A6A6A;
+    font-size: 15px;
+    padding: 10px 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#leg1 {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.83em;
+    color: #2D33AF;
+}
+
+p {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.83em;
+}
+
+a {
+    text-decoration: none;
+    color: #2D33AF; 
+}
+
+.esquerda {
+    display:flex;
+    position: absolute;
+    top: 96.8%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    margin-left: 10px;
+    color: #5F6368;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.esquerda li {
+    margin-left: 10px;
+}
+
+#backfoot {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 622px;
+    border: 1px solid #E4E4E4;
+}
+
+#direita {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 96.9%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+}
+
+#direita li {
+    position: relative;
+    left: 80px;
+    margin: 0px 20px 0px 0px;
+    color: #5F6368;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+#line {
+    width: 500px;
+    height: 3px;
+    background-color: silver;
+}
