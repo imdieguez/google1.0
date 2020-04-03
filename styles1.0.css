@@ -1,0 +1,165 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#perf {
+    max-width: 80px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    position: relative;
+    bottom: 6px;
+    border: 1px;
+    border-radius: 50%;
+}
+
+#hamb {
+    max-width: 67px;
+    max-height: 17px;
+    width: auto;
+    height: auto;
+    position: relative;
+    bottom: 1px;
+
+}
+.lista {
+    display: flex;
+    color: black;
+    justify-content: flex-end;
+    margin: 22px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.88em;
+    
+}
+
+.lista li {
+    margin-left: 13px;
+}
+
+#googlelogo {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 45px;
+    border: 1px solid #DCDCDD;
+    border-radius: 30px;
+    font-size: 18px;
+    padding-left: 40px;
+    z-index: 0;
+}
+
+input:hover {
+    box-shadow: 1px 1px 6px 1px #DCDCDD;
+}
+
+#pesq {
+    position: absolute;
+    top: 49.0%;
+    left: 44.3%;
+    transform: translate(-50%, -50%);
+    border: 1px none black;
+    border-radius: 3px;
+    background-color: #F3F3F3;
+    color: #6A6A6A;
+    font-size: 15px;
+    padding: 10px 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pesq:hover {
+    border: 1px solid #DCDCDD;
+}
+
+#key {
+    position: absolute;
+    top: 40%;
+    left: 67.2%;
+    transform: translate(-50%, -50%);
+    max-width: 76px;
+    max-height: 26px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+
+#sorte {
+    position: absolute;
+    top: 49.0%;
+    left: 55.3%;
+    transform: translate(-50%, -50%);
+    border: 1px none black;
+    border-radius: 3px;
+    background-color: #F3F3F3;
+    color: #6A6A6A;
+    font-size: 15px;
+    padding: 10px 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sorte:hover{
+    border: 1px solid #DCDCDD;
+}
+
+#leg1 {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.83em;
+    color: #2D33AF;
+}
+
+p {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.83em;
+}
+
+a {
+    text-decoration: none;
+    color: #2D33AF; 
+}
+
+
+}
+
+.esquerda li {
+    margin-left: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 600px;
+    height: 80px;
+    background: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: #5F6368;
+}
+
+ul {
+    display: flex;
+    margin: 50px 27px 0px 12px;
+}
+
+li {
+    margin-left: 23px;
+}
+
